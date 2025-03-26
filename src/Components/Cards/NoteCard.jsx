@@ -36,7 +36,7 @@ function NoteCard({
           onClick={onDelete}
         />
         <BsFillPinAngleFill
-          className={`icon-btn ${
+          className={`cursor-pointer hover:text-black ${
             isPinned ? "text-slate-400 " : "text-sky-500"
           }`}
           onClick={onPinNote}
